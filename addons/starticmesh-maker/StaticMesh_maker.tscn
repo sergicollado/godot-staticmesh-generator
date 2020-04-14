@@ -1,0 +1,52 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://addons/starticmesh-maker/staticmesh_generator.gd" type="Script" id=1]
+
+[node name="StaticMeshGenerator" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ButtonsContainer" type="VBoxContainer" parent="."]
+anchor_bottom = 1.0
+margin_right = 213.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Button" type="Button" parent="ButtonsContainer"]
+margin_right = 213.0
+margin_bottom = 20.0
+text = "create"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ButtonRemove" type="Button" parent="ButtonsContainer"]
+margin_top = 24.0
+margin_right = 213.0
+margin_bottom = 44.0
+text = "remove"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="UpdataNodeList" type="Button" parent="ButtonsContainer"]
+margin_top = 48.0
+margin_right = 213.0
+margin_bottom = 68.0
+text = "Update Node list"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ScrollContainer" type="ScrollContainer" parent="ButtonsContainer"]
+margin_top = 72.0
+margin_right = 213.0
+margin_bottom = 372.0
+rect_min_size = Vector2( 0, 300 )
+
+[node name="NodeList" type="VBoxContainer" parent="ButtonsContainer/ScrollContainer"]
