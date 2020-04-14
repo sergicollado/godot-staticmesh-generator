@@ -16,3 +16,6 @@ By default add and staticBody and a trimesh collider to all MeshInstance childre
 Remove all staticBody and colliders from all Meshinstances from active scene.
 - UpdateList:
 Show a meshinstances list from active scene and lets you change the kind of collider is going to be generated, from trimesh to convexMesh
+
+
+![capture](https://github.com/sergicollado/godot-staticmesh-generator/blob/master/addons/starticmesh-maker/capture.png "static mesh generator capture")
