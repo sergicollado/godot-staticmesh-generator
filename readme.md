@@ -10,9 +10,9 @@ It's a plugin that create staticBody and colliders in a scene.
 
 Buttons
 -------
-Create:
-	By default add and staticBody and a trimesh collider to all MeshInstance children from active scene.
-Remove:
-	Remove all staticBody and colliders from all Meshinstances from active scene.
-UpdateList:
-	Show a meshinstances list from active scene and lets you change the kind of collider is going to be generated, from trimesh to convexMesh
+- Create:
+By default add and staticBody and a trimesh collider to all MeshInstance children from active scene.
+- Remove:
+Remove all staticBody and colliders from all Meshinstances from active scene.
+- UpdateList:
+Show a meshinstances list from active scene and lets you change the kind of collider is going to be generated, from trimesh to convexMesh
